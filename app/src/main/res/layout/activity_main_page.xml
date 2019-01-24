@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.flexbox.FlexboxLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:alignItems="center"
+    app:flexWrap="wrap"
+    app:justifyContent="space_around"
+    android:background="@drawable/cust_back"
+    tools:context="com.example.abhishek.swasthabharat_p.MainPage">
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexBasisPercent="@fraction/view">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_view_size"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/fillForm"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/fill_form"
+                android:textSize="@dimen/normal_text"
+                android:textColor="@color/pd"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexBasisPercent="@fraction/view">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_view_size"
+            android:orientation="vertical"
+            android:background="@color/white">
+            <TextView
+                android:id="@+id/morning_clinic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/clinic_name"
+                android:textSize="@dimen/normal_text"
+                android:textColor="@color/sky_color"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexBasisPercent="@fraction/view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_view_size"
+            android:background="@color/white">
+            <ProgressBar
+                android:id="@+id/pb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/app_or_not_default"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/noApp"
+                android:textSize="@dimen/small_text"
+                android:textColor="@color/red"
+                android:background="@color/grey"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:id="@+id/app_conf_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="invisible">
+                <TextView
+                    android:id="@+id/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:gravity="center"
+                    android:textSize="@dimen/normal_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center"
+                    android:text="@string/your_app"
+                    android:textSize="@dimen/normal_text"
+                    android:layout_marginTop="3dp"
+                    android:textColor="@color/light_black" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_flexBasisPercent="@fraction/view">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/card_view_size"
+            android:background="@color/white">
+            <ProgressBar
+                android:id="@+id/pb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/app_or_not_default2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/noApp"
+                android:textSize="@dimen/small_text"
+                android:textColor="@color/red"
+                android:background="@color/grey"
+                android:visibility="invisible"/>
+            <LinearLayout
+                android:id="@+id/conf_time_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="invisible">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/appConf"
+                    android:gravity="center"
+                    android:textSize="@dimen/normal_text"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/Conf_or_not"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/notConf"
+                    android:textSize="@dimen/small_text"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginTop="3dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/btnSize"
+            android:orientation="vertical"
+            android:background="@drawable/cust_text_back"
+            app:layout_flexBasisPercent="@fraction/logout">
+            <TextView
+                android:id="@+id/logout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/logout"
+                android:textSize="@dimen/normal_text"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+
+
+</com.google.android.flexbox.FlexboxLayout>

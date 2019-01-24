@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "898266571563",
+    "firebase_url": "https://patient-info-75c33.firebaseio.com",
+    "project_id": "patient-info-75c33",
+    "storage_bucket": "patient-info-75c33.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898266571563:android:8519b800db8aa136",
+        "android_client_info": {
+          "package_name": "com.example.abhishek.patienthealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898266571563-dge72f80eda1vj7nfue7gdabn4a0um47.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishek.patienthealth",
+            "certificate_hash": "8ad75dfd5212a69318243fe059ba3ab8a98f044e"
+          }
+        },
+        {
+          "client_id": "898266571563-m67jmtbqkokjdsc23aagd98e6ibtn04a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOhn4BimzE5gyWCooqj16lv8jw5jvYHUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898266571563-m67jmtbqkokjdsc23aagd98e6ibtn04a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898266571563:android:4181f9018346c463",
+        "android_client_info": {
+          "package_name": "com.example.abhishek.swasthabharat_p"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898266571563-3dusmcahnoc5k1s3gp6hjipdlnqmbnu1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.abhishek.swasthabharat_p",
+            "certificate_hash": "8ad75dfd5212a69318243fe059ba3ab8a98f044e"
+          }
+        },
+        {
+          "client_id": "898266571563-m67jmtbqkokjdsc23aagd98e6ibtn04a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOhn4BimzE5gyWCooqj16lv8jw5jvYHUM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898266571563-m67jmtbqkokjdsc23aagd98e6ibtn04a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

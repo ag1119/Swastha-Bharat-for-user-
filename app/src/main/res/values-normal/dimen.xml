@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text">12sp</dimen>
+    <dimen name="normal_text">17sp</dimen>
+    <dimen name="large_text">21.6sp</dimen>
+    <dimen name="H3">25.2sp</dimen>
+    <dimen name="H2">32.4sp</dimen>
+    <dimen name="H1">43.2sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="btnSize">120dp</dimen>
+    <dimen name="profile_image_size">100dp</dimen>
+    <dimen name="image_y">45dp</dimen>
+    <dimen name="card_view_y">95dp</dimen>
+    <dimen name="margin_name_container">50dp</dimen>
+    <dimen name="btnHeight">50dp</dimen>
+    <dimen name="card_view_size">150dp</dimen>
+</resources>

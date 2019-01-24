@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Swastha Bharat</string>
+    <string name="clinic_name">Morning Clinic</string>
+    <string name="Et_mobileNo">10 digit mobile number</string>
+    <string name="login">Login</string>
+    <string name="bookApp">Book Appointment</string>
+    <string name="qual">Qualification</string>
+    <string name="spec">Specialization</string>
+    <string name="name">Dr. Name</string>
+    <string name="open">Open</string>
+    <string name="closed">Closed</string>
+    <string name="fill_form">Fill Form</string>
+    <string name="noApp">You do not have any appointment.</string>
+    <string name="your_app">Your have an appointment with <b>Dr. Sachin Kuchya</b>.</string>
+    <string name="appConf">Appointment Confirmation</string>
+    <string name="conf">Your appointment is confirmed you have to reach the clinic at </string>
+    <string name="notConf">Your appointment is not confirmed yet. </string>
+    <string name="date">dd-mm-yyyy</string>
+    <string name="zero">00</string>
+    <string name="patient_name">Enter your name</string>
+    <string name="address">My Address</string>
+    <string name="city">City: </string>
+    <string name="location">Location: </string>
+    <string name="fullAdd">Full Address: </string>
+    <string name="formTagLine">A e-health screening initiative brought to you by Dr. Sachin Kuchya&#8230;</string>
+    <string name="formCondition">To fill this form your age should be between 18 and 65.</string>
+    <string name="ageHint">Please enter your age</string>
+    <string name="go_to_form">Go to form</string>
+    <string name="logout">LOGOUT</string>
+    <string name="confirmApp">Confirm Booking</string>
+    <string name="Yes">yes</string>
+    <string name="No">No</string>
+    <string name="drNumber">9827255744</string>
+</resources>

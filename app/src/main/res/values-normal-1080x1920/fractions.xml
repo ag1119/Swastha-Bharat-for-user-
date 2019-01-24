@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view" type="fraction">40%</item>
+    <item name="logout" type="fraction">35%</item>
+</resources>

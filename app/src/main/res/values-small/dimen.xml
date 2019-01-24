@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text">8sp</dimen>
+    <dimen name="normal_text">11sp</dimen>
+    <dimen name="large_text">14.4sp</dimen>
+    <dimen name="H3">17sp</dimen>
+    <dimen name="H2">21.6sp</dimen>
+    <dimen name="H1">28.8sp</dimen>
+    <dimen name="padding">7dp</dimen>
+    <dimen name="margin">7dp</dimen>
+    <dimen name="btnSize">70dp</dimen>
+    <dimen name="image_y">20dp</dimen>
+    <dimen name="card_view_y">55dp</dimen>
+    <dimen name="margin_name_container">35dp</dimen>
+    <dimen name="btnHeight">50dp</dimen>
+    <dimen name="card_view_size">100dp</dimen>
+</resources>
